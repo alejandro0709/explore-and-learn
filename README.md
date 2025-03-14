@@ -1,11 +1,14 @@
 ```markdown
 # Explore & Learn: Global Data Hub
 
-This iOS application, "Explore & Learn: Global Data Hub," is designed to provide a comprehensive learning experience for SwiftUI, while exploring and interacting with various global datasets through free APIs.
+This iOS application, "Explore & Learn: Global Data Hub," is designed to provide a comprehensive
+ learning experience for SwiftUI, while exploring and interacting with various global datasets through free APIs.
 
 ## Project Overview
 
-The app allows users to explore country information, view weather details, perform currency conversions, browse image galleries, and interact with maps, all within a modular architecture built using SwiftUI, MVVM, VIP, and the Coordinator pattern.
+The app allows users to explore country information, view weather details, perform currency conversions,
+browse image galleries, and interact with maps, all within a modular architecture built using SwiftUI,
+MVVM, VIP, and the Coordinator pattern.
 
 ## Architecture
 
@@ -20,7 +23,9 @@ The project employs a modular architecture with a clear separation of concerns:
 * **Shared Module:** Contains shared protocols and utilities.
 * **App Coordinator:** Manages navigation between modules.
 
-The app utilizes a hybrid architecture, combining MVVM for the UI layer and VIP for the domain layer. The Coordinator pattern is used for navigation, with each feature module having its own coordinator. Dependency injection is managed using Swinject.
+The app utilizes a hybrid architecture, combining MVVM for the UI layer and VIP for the domain layer.
+The Coordinator pattern is used for navigation, with each feature module having its own coordinator.
+Dependency injection is managed using Swinject.
 
 ## Features
 
@@ -73,7 +78,8 @@ The app utilizes a hybrid architecture, combining MVVM for the UI layer and VIP 
 3.  **Install Dependencies:**
     * If you are using swift packages, Xcode should download them automatically.
 4.  **API Keys:**
-    * You may need to obtain API keys from the respective APIs (Rest Countries, OpenWeatherMap, Unsplash, ExchangeRate-API) and configure them in the appropriate modules.
+    * You may need to obtain API keys from the respective APIs (Rest Countries,
+ OpenWeatherMap, Unsplash, ExchangeRate-API) and configure them in the appropriate modules.
 5.  **Build and Run:**
     * Select a simulator or connected device and run the application.
 
