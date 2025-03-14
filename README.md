@@ -2,7 +2,7 @@
 # Explore & Learn: Global Data Hub
 
 This iOS application, "Explore & Learn: Global Data Hub," is designed to provide a comprehensive
- learning experience for SwiftUI, while exploring and interacting with various global datasets through free APIs.
+learning experience for SwiftUI, while exploring and interacting with various global datasets through free APIs.
 
 ## Project Overview
 
@@ -79,7 +79,7 @@ Dependency injection is managed using Swinject.
     * If you are using swift packages, Xcode should download them automatically.
 4.  **API Keys:**
     * You may need to obtain API keys from the respective APIs (Rest Countries,
- OpenWeatherMap, Unsplash, ExchangeRate-API) and configure them in the appropriate modules.
+      OpenWeatherMap, Unsplash, ExchangeRate-API) and configure them in the appropriate modules.
 5.  **Build and Run:**
     * Select a simulator or connected device and run the application.
 
@@ -89,7 +89,8 @@ The project is structured into distinct modules to enhance maintainability and t
 
 * **CountryModule:** Contains views, view models, and the coordinator for country-related features.
 * **WeatherModule:** Contains views, view models, and the coordinator for weather-related features.
-* **DomainModule:** Encapsulates the core business logic, use cases (Interactors), entities, and repository protocols.
+* **DomainModule:** Encapsulates the core business logic, use cases (Interactors), entities,
+    and repository protocols.
 * **DataLayerModule:** Provides concrete implementations of repositories for data fetching and caching.
 * **NetworkModule:** Abstracts network requests and API interactions.
 * **DatabaseModule:** Manages local data persistence using Core Data or AppStorage.
@@ -102,7 +103,8 @@ Swinject is used for dependency injection to manage dependencies between modules
 
 ## Testing
 
-The project is designed with testability in mind. Unit tests should be written for view models, interactors, presenters, repositories, and data sources.
+The project is designed with testability in mind. Unit tests should be written for view models,
+interactors, presenters, repositories, and data sources.
 
 ## Contributing
 
